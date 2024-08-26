@@ -1,0 +1,20 @@
+# ninja log v5
+0	437	7463936994153594	CMakeFiles/TamidJrEngineer.dir/calculator/functions.cpp.obj	9d19f0003418d80b
+18	440	7463936994163572	CMakeFiles/TamidJrEngineer.dir/Palindrome/palindrome.cpp.obj	176d830c16e72cd9
+9	443	7463936994233616	CMakeFiles/TamidJrEngineer.dir/calculator/calculator.cpp.obj	23a4fee554f8ae0b
+2	211	7463963827115417	build.ninja	ecff9be728d01b31
+1	504	7463963620471482	CMakeFiles/calculator.dir/calculator/calculator.cpp.obj	267790e545206904
+3	320	7463963903752157	CMakeFiles/calculator.dir/calculator/functions.cpp.obj	e8333cb870964de9
+321	424	7463963904737427	calculator.exe	11581c4f4bdce59a
+0	307	7463964016684634	CMakeFiles/palindrome.dir/Palindrome/palindrome.cpp.obj	ed160a9c049dfa61
+309	413	7463964017705399	palindrome.exe	93522322add6b6f
+4	484	7463965226605883	CMakeFiles/calculator.dir/calculator/calculator.cpp.obj	267790e545206904
+485	670	7463965228422514	calculator.exe	11581c4f4bdce59a
+4	462	7463966310506154	CMakeFiles/calculator.dir/calculator/calculator.cpp.obj	267790e545206904
+462	594	7463966311791267	calculator.exe	11581c4f4bdce59a
+4	442	7463966439667999	CMakeFiles/palindrome.dir/Palindrome/palindrome.cpp.obj	ed160a9c049dfa61
+443	561	7463966440803107	palindrome.exe	93522322add6b6f
+3	346	7463967383599714	CMakeFiles/palindrome.dir/Palindrome/palindrome.cpp.obj	ed160a9c049dfa61
+346	471	7463967384814875	palindrome.exe	93522322add6b6f
+3	365	7463967854472421	CMakeFiles/palindrome.dir/Palindrome/palindrome.cpp.obj	ed160a9c049dfa61
+365	490	7463967855673976	palindrome.exe	93522322add6b6f

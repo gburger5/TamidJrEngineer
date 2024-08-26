@@ -1,0 +1,4 @@
+C:/Users/gabri/OneDrive/Documents/GitHub/TamidJrEngineer/cmake-build-debug/CMakeFiles/calculator.dir
+C:/Users/gabri/OneDrive/Documents/GitHub/TamidJrEngineer/cmake-build-debug/CMakeFiles/palindrome.dir
+C:/Users/gabri/OneDrive/Documents/GitHub/TamidJrEngineer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabri/OneDrive/Documents/GitHub/TamidJrEngineer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
