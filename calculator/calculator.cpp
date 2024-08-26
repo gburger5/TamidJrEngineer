@@ -10,32 +10,50 @@ int main() {
     string answer;
     string function;
     vector<string> functions = {"*", "/", "+", "-"};
-    int num1;
-    int num2;
+    string num1;
+    string num2;
+    int num1int;
+    int num2int;
     cout << "Welcome to the TAMID Calculator!" << endl;
 
     // Main Block
     while(true) {
         cout <<  "Would you like to calculate somthing (y/n): ";
         cin >> answer;
-        cout << endl;
-        if(answer == "n") { // Stops if answer == n
+        if(answer != "y" && answer != "n") {
+            cout << "Enter valid input, (y/n)" << endl;
+            continue;
+        } else if(answer == "n") { // Stops if answer == n
             break;
         }
+        cout << endl;
         cout << "Please enter the first number: " << endl;
         cin >> num1;
+        if(!checkInt(num1)) {
+            cout << "Please enter a numeric value" << endl;
+            continue;
+        } else {
+            num1int = stoi(num1);
+        };
         cout << "Please enter the second number : " << endl;
         cin >> num2;
+        if(!checkInt(num2)) {
+            cout << "Please enter a numeric value" << endl;
+            continue;
+        } else {
+            num2int = stoi(num2);
+        };
         cout << "Please enter your function: " << endl;
         cin >> function;
         if(checkFunc(function, functions) != true) { // makes sure function is a valid function
             cout << "Please choose a valid function: *, +, -, or /" << endl;
         }
-        else if(num2 != 0 && function != "/") { // Checks for division by 0
-            cout << "Your result was: " << calculation(num1, num2, function) << "!" << endl;
-        } else {
+
+        if(num2int == 0 && function == "/") {
             cout << "You cannot divide by 0!" << endl;
+            continue;
         }
+        cout << "Your result was: " << calculation(num1int, num2int, function) << endl;
     };
 
 

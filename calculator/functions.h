@@ -10,8 +10,8 @@ using namespace std;
 int multiply(int num1, int num2);
 int add(int num1, int num2);
 int sub(int num1, int num2);
-int divide(int num1, int num2);
-int calculation(int num1, int num2, std::string choice);
+double divide(int num1, int num2);
+double calculation(int num1, int num2, std::string choice);
 bool checkFunc(string function, vector<string> functions);
-
+bool checkInt(const string& str);
 #endif //TAMIDJRENGINEER_FUNCTIONS_H

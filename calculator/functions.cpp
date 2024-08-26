@@ -18,11 +18,11 @@ int sub(int num1, int num2) {
     return num1 - num2;
 }
 
-int divide(int num1, int num2) {
-    return num1 / num2;
+double divide(double num1, double num2) {
+    return static_cast<double>(num1) / static_cast<double>(num2);
 }
 
-int calculation(int num1, int num2, string choice) {
+double calculation(int num1, int num2, string choice) {
     if (choice == "+") {
         return add(num1, num2);
     } else if(choice == "-") {
@@ -43,4 +43,13 @@ bool checkFunc(string function, vector<string> functions) {
         }
     }
     return false;
+}
+
+bool checkInt(const string& str) {
+    try {
+        int num = stoi(str);
+        return true;
+    } catch (invalid_argument&) {
+        return false;
+    }
 }
